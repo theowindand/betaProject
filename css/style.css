@@ -1765,6 +1765,10 @@ footer, .footer {
 	.main-detailed-consultation .dots-of-square {
 		display: none;
 	}
+	
+	.our-team-slider .item img {
+		margin-left: 4px;
+	}
 
 	.planning-stages {
 		display: none;
