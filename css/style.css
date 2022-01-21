@@ -308,7 +308,8 @@ nav.navbar {
 	min-height: 233.17px;
 }
 
-.slider-services .slick-prev, .slick-next {
+.slider-services .slick-prev, 
+.slick-next {
     width: 37px;
     height: 55px;
 }
@@ -409,7 +410,8 @@ nav.navbar {
 	margin-bottom: 5px;
 }
 
-.amount-and-prices p, .amount-and-prices .p {
+.amount-and-prices p, 
+.amount-and-prices .p {
 	font-size: 25px;
 }
 
@@ -516,12 +518,12 @@ nav.navbar {
 }
 
 .form-detailed-consultation .new-select-style {
-	margin-bottom: 	40px;
+	margin-bottom: 40px;
 }
 
 .form-detailed-consultation .get-consultation {
 	margin-top: 30px;
-	margin-bottom: 	30px;
+	margin-bottom: 30px;
 }
 
 .form-detailed-consultation select option {
@@ -597,7 +599,7 @@ nav.navbar {
 }
 
 .what-do-you-get .slick-next.slick-arrow:before,
-.customer-reviews .slick-next.slick-arrow:before{
+.customer-reviews .slick-next.slick-arrow:before {
     background: url('../img/arrowRight.svg') center no-repeat;
     width: 37px;
     height: 55px;
@@ -724,7 +726,7 @@ nav.navbar {
 }
 
 
-.our-team-slider .slick-next.slick-arrow:before{
+.our-team-slider .slick-next.slick-arrow:before {
     background: url('../img/Vector11.svg') center no-repeat;
     width: 37px;
     height: 55px;
@@ -802,7 +804,7 @@ nav.navbar {
 
 .slider-license-docs .slick-dots li button:before,
 .planning-stages-mob .slick-dots li button:before,
-.completed-projects-mob .slick-dots li button:before  {
+.completed-projects-mob .slick-dots li button:before {
 	color: #fff;
 }
 
@@ -969,8 +971,6 @@ nav.navbar {
 	max-width: 310px;
 }
 
-
-
 .mobile-nums a, .contacts-email a {
 	color: #000;
 	text-decoration: none;
@@ -1067,13 +1067,16 @@ footer, .footer {
 	margin-bottom: 25px;
 	height: auto;
 	max-width: 746px;
+	max-height: 675px;
 	background: #333333;
-	padding: 15px;
+	padding: 0 15px;
 	display: none;
 	z-index: 999999;
 }
 
+
 .pop_up p, 
+.pop_up h5,
 .pop_up select, 
 .pop_up label, 
 .pop_up input::placeholder {
@@ -1082,13 +1085,25 @@ footer, .footer {
 	font-size: 18px;
 }
 
-.pop_up > p {
-	text-align: center;
-	font-size: 22px;
-	margin: 0 auto;
-	margin-top: 51px;
+.pop_up > h5 {
 	font-weight: 600;
-	font-size: 36px;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	padding-top: 51px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.pop_up > p {
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 367px;
+	color: #FFFFFF;
 }
 
 .pop_up select {
@@ -1120,15 +1135,13 @@ footer, .footer {
 }
 
 .pop_up label {
-	margin-bottom: 6px;
-	margin-top: 35px;
+	margin-bottom: 0px;
 }
 
 .pop_up input[type=text]{
 	height: 53px;
 	display: block;
 	color: #ffffff;
-	margin-top: 15px;
 	border: 1px solid #B8EE46;
 	outline: none;
 	background: #333333;
@@ -1137,6 +1150,14 @@ footer, .footer {
 
 .pop_up input::placeholder {
 	padding-left: 14px;
+}
+
+.pop_up .input-name {
+	margin-bottom: 11px
+}
+
+.pop_up .input-phone {
+	margin-bottom: 63px;
 }
 
 .pop_up button {
@@ -1151,6 +1172,7 @@ footer, .footer {
 	color: #333333;
 	font-family: Montserrat;
 	font-weight: 500;
+	font-size: 20px;
 }
 
 .close_pop {
@@ -1167,10 +1189,6 @@ footer, .footer {
 	line-height: 28px;
 	cursor: pointer;
 }
-
-
-
-
 
 
 .redevelopment-and-reconstruction h1 {
@@ -1708,7 +1726,7 @@ footer, .footer {
 		font-style: normal;
 		font-weight: 900;
 		font-size: 24px;
-		line-height: 23px;
+		line-height: 29px;
 		max-width: 250px;
 	}
 
@@ -1764,10 +1782,6 @@ footer, .footer {
 
 	.main-detailed-consultation .dots-of-square {
 		display: none;
-	}
-	
-	.our-team-slider .item img {
-		margin-left: -3px;
 	}
 
 	.planning-stages {
@@ -1844,7 +1858,7 @@ footer, .footer {
 	.top-section_documentation p {
 		font-size: 18px;
 		font-family: Montserrat;
-		font-weight: 600;
+		font-weight: 400;
 		font-size: 18px;
 		line-height: 22px;
 		margin-bottom: 0;
