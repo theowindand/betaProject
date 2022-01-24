@@ -2412,7 +2412,6 @@ footer, .footer {
 	
 }
 
-
 @media only screen and (min-width: 1280px) {
 	nav {
 		display: block;
@@ -2423,7 +2422,6 @@ footer, .footer {
 }
 
 @media only screen and (min-width: 1336px) {
-
 	.customer-reviews .slick-prev {
 	    left: -85px;
 	}
@@ -2431,7 +2429,6 @@ footer, .footer {
 	.customer-reviews .slick-next {
 	    right: -85px;
 	}
-
 }
 
 @media only screen and (min-width: 1366px) {
@@ -2446,13 +2443,11 @@ footer, .footer {
 	}
 }
 
-
 @media only screen and (min-width: 1600px) {
 	.contacts {
 	    background-size: 95.5rem 100%;
 	}
 }
-
 
 @media only screen and (min-width: 1680px) {
 	.contacts {
@@ -2474,7 +2469,6 @@ footer, .footer {
 	}
 }
 
-
 @media only screen and (min-width: 2048px) {
 	.contacts {
 	    background-size: 110.7rem 100%;
@@ -2482,10 +2476,14 @@ footer, .footer {
 }
 
 @media only screen and (min-width: 2560px) {
+	.redevelopment-and-reconstruction_info {
+		padding-bottom: 6%;
+	}
 	.contacts {
 	    background-size: 127.6rem 100%;
 	}
 }
+
 
 
 
