@@ -1042,7 +1042,7 @@ nav.navbar {
 } 
 
 .billboard-main-info {
-	padding-bottom: 20%;
+	padding-bottom: 34rem;
 }
 
 .redevelopment-and-reconstruction_info h1 span,
@@ -1807,6 +1807,20 @@ footer, .footer {
 		margin-top: -60px;
 	}
 
+	.advertising-structures-top-sctn {
+		background: url('../img/billboard-mob.jpg');
+		background-repeat: no-repeat;
+		width: 100%;
+		background-size: cover;
+		height: auto;
+		min-height: 660px;
+		margin-top: -60px;
+	}
+
+	.billboard-main-info {
+		padding-bottom: 16rem;
+	}
+
 	.engineering-top-section h1 span {
 		white-space: normal;
 	}
@@ -2522,9 +2536,9 @@ footer, .footer {
 
 @media only screen and (min-width: 1600px) {
 
-	.billboard-main-info {
+	/*.billboard-main-info {
 		padding-bottom: 42%;
-	}
+	}*/
 	.contacts {
 	    background-size: 95.5rem 100%;
 	}
