@@ -218,7 +218,8 @@ nav.navbar {
 
 .top-section_headline a, 
 .redevelopment-and-reconstruction_info a,
-.engineering-main-info a {
+.engineering-main-info a,
+.billboard-main-info a {
 	margin-top: 17px;
 	display: inline-block;
 	padding: 16px 24px;
@@ -977,7 +978,8 @@ nav.navbar {
 }
 
 .redevelopment-and-reconstruction h1,
-.engineering-main-info h1 {
+.engineering-main-info h1,
+.billboard-main-info h1 {
 	color: #fff;
 	font-family: Montserrat;
 	font-style: normal;
@@ -988,6 +990,11 @@ nav.navbar {
 .engineering-main-info h1 {
 	color: #222222;
 	max-width: 890px;
+}
+
+.billboard-main-info h1 {
+	color: #222222;
+	max-width: 612px;
 }
 
 .redevelopment-and-reconstruction {
@@ -1008,7 +1015,16 @@ nav.navbar {
 	height: 100vh;
 	display: flex;
 	align-items: center;
+}
 
+.advertising-structures-top-sctn {
+	background: url('../img/billboard-top-img.jpg') top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 705px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
 }
 
 .redevelopment-and-reconstruction_info {
@@ -1017,9 +1033,13 @@ nav.navbar {
 	padding-bottom: 11%;
 }
 
-.engineering-main-info {
+.engineering-main-info  {
 	padding-bottom: 35%;
 } 
+
+.billboard-main-info {
+	padding-bottom: 20%;
+}
 
 .redevelopment-and-reconstruction_info h1 span,
 .engineering-main-info h1 span {
@@ -1742,13 +1762,18 @@ footer, .footer {
 	}
 
 	.redevelopment-page h1,
-	.engineering-top-section h1 {
+	.engineering-top-section h1,
+	.billboard-main-info h1 {
 		font-family: Montserrat;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 24px;
 		line-height: 29px;
 		max-width: 250px;
+	}
+
+	.engineering-top-section h1 {
+		max-width: 227px;
 	}
 
 	.redevelopment-page h1 span {
@@ -1758,7 +1783,8 @@ footer, .footer {
 		display: none;
 	}
 
-	.redevelopment-and-reconstruction {
+	.redevelopment-and-reconstruction,
+	.engineering-top-section {
 		background: url('../img/redevelopment-top-img.jpg');
 		background-repeat: no-repeat;
 		width: 100%;
@@ -1766,6 +1792,18 @@ footer, .footer {
 		height: auto;
 		min-height: 660px;
 		margin-top: -60px;
+	}
+
+	.engineering-top-section {
+		background: url('../img/engineering-phone.jpg');
+	}
+
+	.engineering-top-section h1 span {
+		white-space: normal;
+	}
+
+	.engineering-main-info a {
+		padding: 16px 18px;
 	}
 
 	.completed-projects-mob h2 {
@@ -2474,6 +2512,10 @@ footer, .footer {
 }
 
 @media only screen and (min-width: 1600px) {
+
+	.billboard-main-info {
+		padding-bottom: 42%;
+	}
 	.contacts {
 	    background-size: 95.5rem 100%;
 	}
@@ -2490,8 +2532,9 @@ footer, .footer {
 	.redevelopment-and-reconstruction_info {
 		max-width: 872px;
 	}
-	.redevelopment-and-reconstruction_info h1 {
-		font-size: 81px;
+	.redevelopment-and-reconstruction_info h1,
+	.engineering-main-info h1 {
+		font-size: 70px;
 		line-height: 99px;
 	}
 	.contacts {
