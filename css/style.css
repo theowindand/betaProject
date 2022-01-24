@@ -74,6 +74,83 @@ body {
 	max-width: 1336px;
 }
 
+
+.page-a4 {
+	background-color: #333333;
+	font-family: Montserrat;
+
+}
+
+.page-a4 .header {
+	padding: 27px 20px 0px 20px;
+}
+
+.bg-wrapper {
+	padding: 45px 20px 12px 20px;
+	margin-top: 35px;
+	background: url('../img/img-page-seo.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+.seo-page-list {
+	list-style-type: none;
+}
+
+.seo-page-list li {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 20px;
+	line-height: 180%;
+}
+
+.seo-page-list li:before {
+    color: #B8EE46; 
+    content: "\25A0"; 
+    padding-right: 8px;
+	font-size: 12px;
+}
+
+.seo-page-list li span {
+	color: #fff;
+	font-size: 18px;
+}
+
+
+.page-a4 .soc-icons-mob img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.page-a4 .soc-icons-mob span {
+	font-family: Montserrat;
+	color: #fff;
+	font-size: 10px;
+} 
+
+.seo-page-ftr {
+	padding-top: 50px;
+	background-color: transparent !important;
+	padding-bottom: 10px;
+}
+
+.contacts-ftr-mob {
+	margin-top: 45px;
+}
+
+.contacts-ftr-mob p {
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.contacts-ftr-mob p a {
+	color: #fff;
+	text-decoration: underline;
+}
+
 .top-menu {
 	display: flex;
 	justify-content: space-between;
@@ -228,10 +305,6 @@ nav.navbar {
 	color: #000;
 	text-decoration: none;
 	position: relative;
-}
-
-.engineering-main-info a {
-	margin-top: 55px;
 }
 
 .top-section_headline:before {
@@ -1008,7 +1081,6 @@ nav.navbar {
 	min-height: 705px;
 	height: 100vh;
 	display: flex;
-	align-items: center;
 }
 
 .engineering-top-section {
@@ -1018,7 +1090,6 @@ nav.navbar {
 	min-height: 705px;
 	height: 100vh;
 	display: flex;
-	align-items: center;
 }
 
 .advertising-structures-top-sctn {
@@ -1028,17 +1099,16 @@ nav.navbar {
 	min-height: 705px;
 	height: 100vh;
 	display: flex;
-	align-items: center;
 }
 
 .redevelopment-and-reconstruction_info {
 	margin: 0 auto;
 	max-width: 690px;
-	padding-bottom: 11%;
+	/*padding-bottom: 11%;*/
 }
 
 .engineering-main-info  {
-	padding-bottom: 35%;
+	/*padding-bottom: 35%;*/
 } 
 
 .billboard-main-info {
@@ -1795,6 +1865,7 @@ footer, .footer {
 		height: auto;
 		min-height: 660px;
 		margin-top: -60px;
+		align-items: center;
 	}
 
 	.engineering-top-section {
@@ -1805,6 +1876,7 @@ footer, .footer {
 		height: auto;
 		min-height: 660px;
 		margin-top: -60px;
+		align-items: center;
 	}
 
 	.advertising-structures-top-sctn {
@@ -1815,10 +1887,15 @@ footer, .footer {
 		height: auto;
 		min-height: 660px;
 		margin-top: -60px;
+		align-items: center;
 	}
 
 	.billboard-main-info {
 		padding-bottom: 16rem;
+	}
+
+	.engineering-main-info {
+		padding-bottom: 8rem;
 	}
 
 	.engineering-top-section h1 span {
@@ -1891,6 +1968,23 @@ footer, .footer {
 
 
 @media (min-width: 768px) {
+
+
+	.redevelopment-and-reconstruction {
+		padding-top: 10rem;
+	}
+
+	.engineering-top-section {
+		padding-top: 4rem;
+	}
+
+	.engineering-main-info a {
+		margin-top: 55px;
+	}
+
+	.advertising-structures-top-sctn {
+		padding-top: 3rem;
+	}
 
 	.close_mob_menu, .mob_menu_logo {
 		display: none;
@@ -2433,7 +2527,12 @@ footer, .footer {
 	}
 }
 
-@media (max-width: 390px) {
+@media (max-width: 393px) {
+
+	.contacts-ftr-mob p {
+		font-size: 11px;
+		color: #fff;
+	}
 	
 }
 
@@ -2521,7 +2620,7 @@ footer, .footer {
 
 @media only screen and (min-width: 1366px) {
 	.redevelopment-and-reconstruction_info {
-		padding-bottom: 14%;
+		/*padding-bottom: 14%;*/
 	}
 	.contacts {
 	    background-size: 87.6rem 100%;
@@ -2557,7 +2656,7 @@ footer, .footer {
 	}
 	.redevelopment-and-reconstruction_info h1,
 	.engineering-main-info h1 {
-		font-size: 70px;
+		font-size: 68px;
 		line-height: 99px;
 	}
 	.contacts {
@@ -2573,7 +2672,7 @@ footer, .footer {
 
 @media only screen and (min-width: 2560px) {
 	.redevelopment-and-reconstruction_info {
-		padding-bottom: 6%;
+		/*padding-bottom: 6%;*/
 	}
 	.contacts {
 	    background-size: 127.6rem 100%;
