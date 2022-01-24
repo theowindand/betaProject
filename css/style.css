@@ -217,7 +217,8 @@ nav.navbar {
 }
 
 .top-section_headline a, 
-.redevelopment-and-reconstruction_info a {
+.redevelopment-and-reconstruction_info a,
+.engineering-main-info a {
 	margin-top: 17px;
 	display: inline-block;
 	padding: 16px 24px;
@@ -975,13 +976,18 @@ nav.navbar {
 	font-size: 16px;
 }
 
-.redevelopment-and-reconstruction h1 {
+.redevelopment-and-reconstruction h1,
+.engineering-main-info h1 {
 	color: #fff;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 64px;
 	line-height: 78px;
+}
+.engineering-main-info h1 {
+	color: #222222;
+	max-width: 890px;
 }
 
 .redevelopment-and-reconstruction {
@@ -994,13 +1000,29 @@ nav.navbar {
 	align-items: center;
 }
 
+.engineering-top-section {
+	background: url('../img/engineering-top-img.jpg') top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 705px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+
+}
+
 .redevelopment-and-reconstruction_info {
 	margin: 0 auto;
 	max-width: 690px;
 	padding-bottom: 11%;
 }
 
-.redevelopment-and-reconstruction_info h1 span {
+.engineering-main-info {
+	padding-bottom: 35%;
+} 
+
+.redevelopment-and-reconstruction_info h1 span,
+.engineering-main-info h1 span {
 	white-space: nowrap;
 }
 
@@ -1719,7 +1741,8 @@ footer, .footer {
 		margin-top: 50px;
 	}
 
-	.redevelopment-page h1 {
+	.redevelopment-page h1,
+	.engineering-top-section h1 {
 		font-family: Montserrat;
 		font-style: normal;
 		font-weight: 900;
@@ -1956,6 +1979,10 @@ footer, .footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.redevelopment-page h1,
+	.engineering-top-section h1 {
+		font-size: 53px;
+	}
 	.our-team-slider .item img {
 		max-height: 203.09px;
 	}
@@ -2432,6 +2459,9 @@ footer, .footer {
 }
 
 @media only screen and (min-width: 1366px) {
+	.redevelopment-and-reconstruction_info {
+		padding-bottom: 14%;
+	}
 	.contacts {
 	    background-size: 87.6rem 100%;
 	}
