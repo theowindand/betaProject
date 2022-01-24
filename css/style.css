@@ -1783,8 +1783,7 @@ footer, .footer {
 		display: none;
 	}
 
-	.redevelopment-and-reconstruction,
-	.engineering-top-section {
+	.redevelopment-and-reconstruction {
 		background: url('../img/redevelopment-top-img.jpg');
 		background-repeat: no-repeat;
 		width: 100%;
@@ -1796,6 +1795,12 @@ footer, .footer {
 
 	.engineering-top-section {
 		background: url('../img/engineering-phone.jpg');
+		background-repeat: no-repeat;
+		width: 100%;
+		background-size: cover;
+		height: auto;
+		min-height: 660px;
+		margin-top: -60px;
 	}
 
 	.engineering-top-section h1 span {
