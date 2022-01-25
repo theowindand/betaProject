@@ -78,7 +78,7 @@ body {
 .page-a4 {
 	background-color: #333333;
 	font-family: Montserrat;
-
+	min-height: 100vh;
 }
 
 .page-a4 .header {
@@ -125,10 +125,14 @@ body {
 }
 
 .page-a4 .soc-icons-mob span {
-	font-family: Montserrat;
 	color: #fff;
-	font-size: 10px;
+	font-size: 8px;
+	padding-top: 6px;
 } 
+
+.mob-soc-icon {
+	width: 66px;
+}
 
 .seo-page-ftr {
 	padding-top: 50px;
@@ -296,7 +300,8 @@ nav.navbar {
 .top-section_headline a, 
 .redevelopment-and-reconstruction_info a,
 .engineering-main-info a,
-.billboard-main-info a {
+.billboard-main-info a,
+.technical-main-info a {
 	margin-top: 17px;
 	display: inline-block;
 	padding: 16px 24px;
@@ -1056,22 +1061,27 @@ nav.navbar {
 
 .redevelopment-and-reconstruction h1,
 .engineering-main-info h1,
-.billboard-main-info h1 {
+.billboard-main-info h1,
+.technical-main-info h1 {
 	color: #fff;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 64px;
 	line-height: 78px;
+	max-width: 	600px;
 }
 .engineering-main-info h1 {
-	color: #222222;
 	max-width: 890px;
 }
 
 .billboard-main-info h1 {
-	color: #222222;
 	max-width: 612px;
+}
+.engineering-main-info h1,
+.billboard-main-info h1,
+.technical-main-info h1 {
+	color: #222222;
 }
 
 .redevelopment-and-reconstruction {
@@ -1094,6 +1104,15 @@ nav.navbar {
 
 .advertising-structures-top-sctn {
 	background: url('../img/billboard-top-img.jpg') top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 705px;
+	height: 100vh;
+	display: flex;
+}
+
+.technical-studies-top-sctn {
+	background: url('../img/technical-top-img.jpg') top center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 705px;
@@ -1837,7 +1856,8 @@ footer, .footer {
 
 	.redevelopment-page h1,
 	.engineering-top-section h1,
-	.billboard-main-info h1 {
+	.billboard-main-info h1,
+	.technical-main-info h1 {
 		font-family: Montserrat;
 		font-style: normal;
 		font-weight: 900;
@@ -1881,6 +1901,17 @@ footer, .footer {
 
 	.advertising-structures-top-sctn {
 		background: url('../img/billboard-mob.jpg');
+		background-repeat: no-repeat;
+		width: 100%;
+		background-size: cover;
+		height: auto;
+		min-height: 660px;
+		margin-top: -60px;
+		align-items: center;
+	}
+
+	.technical-studies-top-sctn {
+		background: url('../img/technical-mob-bg.jpg');
 		background-repeat: no-repeat;
 		width: 100%;
 		background-size: cover;
@@ -1979,6 +2010,14 @@ footer, .footer {
 	}
 
 	.engineering-main-info a {
+		margin-top: 55px;
+	}
+
+	.technical-studies-top-sctn {
+		padding-top: 7rem;
+	}
+
+	.technical-studies-top-sctn a {
 		margin-top: 55px;
 	}
 
